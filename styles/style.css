@@ -254,6 +254,10 @@
 }
 .discount-img-col1{
     position: absolute;
+    margin-left: 60px;
+}
+.discount-img-col1 img{
+    /* height: 100%; */
 }
 .discount-img-col2{
     position: relative;
@@ -289,6 +293,7 @@
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
+    width: 1000px;
 }
 .portfolio-img-row1{
     margin: 48px 0 24px;
@@ -353,8 +358,12 @@
     font-size: 20px;
     font-weight: 600;
     text-transform: capitalize;
+    cursor: pointer;
+    transition: all ease-in-out 0.4s;
 }
-
+.newsletter>div>button:hover{
+    background-color: rgb(205, 0, 0);
+}
 
 .footer{
     height: 610px;
@@ -380,7 +389,12 @@
 .footer-row1>div>a{
     text-decoration: none;
     color: #FFF;
-    display: block;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.footer-row1>div>a>img{
+    margin-right: 16px;
 }
 
 .footer-row2{
@@ -389,6 +403,11 @@
     align-items: center;
     gap: 24px;
     margin: 48px auto;
+    text-decoration: none;
+}
+
+.footer-row2>a{
+    display: flex;
 }
 
 .footer-row3{
