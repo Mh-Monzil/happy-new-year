@@ -302,7 +302,10 @@
     display: flex;
     justify-content: space-between;
 }
-
+.portfolio img:hover{
+    transform: scale(1.03);
+    transition: all ease-in-out 0.6s;
+}
 
 
 .newsletter{
