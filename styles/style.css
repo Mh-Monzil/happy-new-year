@@ -313,7 +313,9 @@
     text-align: center;
     padding: 80px 0;
 }
-
+.newsletter img{
+    margin-bottom: 40px;
+}
 .newsletter-title{
     color: #070211;
     text-align: center;
